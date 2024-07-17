@@ -1,0 +1,189 @@
+[
+  {
+    "id": "Q.129",
+    "text": "The process of determining the locations of the instrument station by drawing resectors from the locations of the known stations is called",
+    "options": [
+      { "id": "a", "text": "radiation" },
+      { "id": "b", "text": "intersection" },
+      { "id": "c", "text": "resection" },
+      { "id": "d", "text": "traversing" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": "Q.130",
+    "text": "The methods used for locating the plane table stations are",
+    "options": [
+      { "id": "a", "text": "1 and 2" },
+      { "id": "b", "text": "3 and 4" },
+      { "id": "c", "text": "2 and 4" },
+      { "id": "d", "text": "1 and 3" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": "Q.131",
+    "text": "The instrument which is used in plane tabling for obtaining horizontal and vertical distances directly without resorting to chaining, is known as",
+    "options": [
+      { "id": "a", "text": "Plane alidade" },
+      { "id": "b", "text": "Telescopic alidade" },
+      { "id": "c", "text": "clinometer" },
+      { "id": "d", "text": "tacheometer" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Q.132",
+    "text": "Orientation of a plane table by solving two point problem is only adopted when",
+    "options": [
+      { "id": "a", "text": "Saving of time is a main factor" },
+      { "id": "b", "text": "better accuracy is a main factor" },
+      { "id": "c", "text": "given points are inaccessible" },
+      { "id": "d", "text": "None of these" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": "Q.133",
+    "text": "For locating an inaccessible point with the help of only a Plane table, one should use",
+    "options": [
+      { "id": "a", "text": "traversing" },
+      { "id": "b", "text": "resection" },
+      { "id": "c", "text": "radiation" },
+      { "id": "d", "text": "intersection" }
+    ],
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Q.134",
+    "text": "Three point problem can be solved by",
+    "options": [
+      { "id": "a", "text": "Tracing paper method" },
+      { "id": "b", "text": "Bessel's method" },
+      { "id": "c", "text": "Lehman's method" },
+      { "id": "d", "text": "All of these" }
+    ],
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Q.135",
+    "text": "Consider the following statements pertaining to plane table survey\n1. Two point problem is solved by mechanical method\n2. Three point problem is solved by Bessel's method\n3. In two point problem, auxiliary station is required\nWhich of these statements is/are correct?",
+    "options": [
+      { "id": "a", "text": "1 and 2" },
+      { "id": "b", "text": "1 and 3" },
+      { "id": "c", "text": "2 and 3" },
+      { "id": "d", "text": "1, 2 and 3" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": "Q.129",
+    "text": "The process of determining the locations of the instrument station by drawing resectors from the locations of the known stations is called",
+    "options": [
+      { "id": "a", "text": "radiation" },
+      { "id": "b", "text": "intersection" },
+      { "id": "c", "text": "resection" },
+      { "id": "d", "text": "traversing" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": "Q.130",
+    "text": "The methods used for locating the plane table stations are",
+    "options": [
+      { "id": "a", "text": "1 and 2" },
+      { "id": "b", "text": "3 and 4" },
+      { "id": "c", "text": "2 and 4" },
+      { "id": "d", "text": "1 and 3" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": "Q.131",
+    "text": "The instrument which is used in plane tabling for obtaining horizontal and vertical distances directly without resorting to chaining, is known as",
+    "options": [
+      { "id": "a", "text": "Plane alidade" },
+      { "id": "b", "text": "Telescopic alidade" },
+      { "id": "c", "text": "clinometer" },
+      { "id": "d", "text": "tacheometer" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Q.132",
+    "text": "Orientation of a plane table by solving two point problem is only adopted when",
+    "options": [
+      { "id": "a", "text": "Saving of time is a main factor" },
+      { "id": "b", "text": "better accuracy is a main factor" },
+      { "id": "c", "text": "given points are inaccessible" },
+      { "id": "d", "text": "None of these" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": "Q.133",
+    "text": "For locating an inaccessible point with the help of only a Plane table, one should use",
+    "options": [
+      { "id": "a", "text": "traversing" },
+      { "id": "b", "text": "resection" },
+      { "id": "c", "text": "radiation" },
+      { "id": "d", "text": "intersection" }
+    ],
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Q.134",
+    "text": "Three point problem can be solved by",
+    "options": [
+      { "id": "a", "text": "Tracing paper method" },
+      { "id": "b", "text": "Bessel's method" },
+      { "id": "c", "text": "Lehman's method" },
+      { "id": "d", "text": "All of these" }
+    ],
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Q.135",
+    "text": "Consider the following statements pertaining to plane table survey\n1. Two point problem is solved by mechanical method\n2. Three point problem is solved by Bessel's method\n3. In two point problem, auxiliary station is required\nWhich of these statements is/are correct?",
+    "options": [
+      { "id": "a", "text": "1 and 2" },
+      { "id": "b", "text": "1 and 3" },
+      { "id": "c", "text": "2 and 3" },
+      { "id": "d", "text": "1, 2 and 3" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": "Q.136",
+    "text": "The method used in plane table survey to locate inaccessible points is",
+    "options": [
+      { "id": "a", "text": "radiation" },
+      { "id": "b", "text": "intersection" },
+      { "id": "c", "text": "resection" },
+      { "id": "d", "text": "traversing" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Q.137",
+    "text": "The radius of a vertical curve is generally governed by",
+    "options": [
+      { "id": "a", "text": "comfort of passengers" },
+      { "id": "b", "text": "provision of sight distance" },
+      { "id": "c", "text": "the force of gravity" },
+      { "id": "d", "text": "provision for super elevation" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Q.138",
+    "text": "For small changes in gradient in a vertical curve, the radius that will provide minimum cost will be",
+    "options": [
+      { "id": "a", "text": "short" },
+      { "id": "b", "text": "long" },
+      { "id": "c", "text": "infinite" },
+      { "id": "d", "text": "more" }
+    ],
+    "correctAnswer": "a"
+  }
+]
