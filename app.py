@@ -1,11 +1,16 @@
+import os
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import pytesseract
 from PIL import Image
-import os
 
 app = Flask(__name__)
 CORS(app)
+
+# Ensure uploads directory exists
+uploads_dir = 'uploads'
+if not os.path.exists(uploads_dir):
+    os.makedirs(uploads_dir)
 
 @app.route('/')
 def index():
@@ -13,20 +18,34 @@ def index():
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
-    file = request.files['file']
-    file_path = os.path.join('uploads', file.filename)
-    file.save(file_path)
+    try:
+        if 'file' not in request.files:
+            return jsonify({'error': 'No file part'}), 400
 
-    text = extract_text_from_image(file_path)
-    questions = extract_questions(text)
+        file = request.files['file']
 
-    os.remove(file_path)
+        if file.filename == '':
+            return jsonify({'error': 'No selected file'}), 400
 
-    return jsonify({'questions': questions})
+        file_path = os.path.join(uploads_dir, file.filename)
+        file.save(file_path)
+
+        text = extract_text_from_image(file_path)
+        questions = extract_questions(text)
+
+        os.remove(file_path)
+
+        return jsonify({'questions': questions})
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 def extract_text_from_image(image_path):
-    text = pytesseract.image_to_string(Image.open(image_path))
-    return text
+    try:
+        text = pytesseract.image_to_string(Image.open(image_path))
+        return text
+    except Exception as e:
+        return str(e)
 
 def extract_questions(text):
     lines = text.split('\n')
