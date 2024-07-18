@@ -30,9 +30,15 @@ def upload_file():
         file_path = os.path.join(uploads_dir, file.filename)
         file.save(file_path)
 
+        # Extract text from image
         text = extract_text_from_image(file_path)
+        print(f"Extracted text: {text}")  # Debugging line
+        
+        # Extract questions from text
         questions = extract_questions(text)
+        print(f"Questions found: {questions}")  # Debugging line
 
+        # Clean up
         os.remove(file_path)
 
         return jsonify({'questions': questions})
