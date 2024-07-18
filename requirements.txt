@@ -3,4 +3,4 @@ pytesseract==0.3.10
 Pillow==9.3.0
 gunicorn==20.1.0
 werkzeug==2.2.3
-flask_cors==3.1.10
+flask_cors==3.0.10
