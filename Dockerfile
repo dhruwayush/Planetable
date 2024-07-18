@@ -1,10 +1,10 @@
-# Use an official Python runtime as a parent image
+# Use the official Python image as a base
 FROM python:3.11-slim
 
 # Set the working directory in the container
 WORKDIR /app
 
-# Install system dependencies and Tesseract
+# Install system dependencies and Tesseract OCR
 RUN apt-get update && \
     apt-get install -y \
     tesseract-ocr \
@@ -21,8 +21,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the application code into the container
 COPY . .
 
-# Expose the port the app runs on
+# Expose the port that the app will run on
 EXPOSE 5000
 
-# Run the application
-CMD ["gunicorn", "app:app"]
+# Define the command to run the app using Gunicorn
+CMD ["gunicorn", "--timeout", "120", "app:app"]
